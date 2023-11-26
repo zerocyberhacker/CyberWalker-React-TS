@@ -10,6 +10,8 @@
     "@types/node": "^16.18.64",
     "@types/react": "^18.2.38",
     "@types/react-dom": "^18.2.17",
+    "express": "^4.18.2",
+    "path": "^0.12.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.20.0",
@@ -18,7 +20,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "ts-node server.ts",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
