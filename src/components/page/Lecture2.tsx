@@ -1,5 +1,6 @@
 /** @format */
 
+import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 const Lecture2: React.FC = () => {
@@ -9,6 +10,7 @@ const Lecture2: React.FC = () => {
       <p>
         <NavLink to={"/"}>back</NavLink>
       </p>
+      <br />
     </>
   );
 };
